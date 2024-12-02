@@ -20,20 +20,12 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		// キー入力を受け取る
 		memcpy(preKeys, keys, 256);
 		Novice::GetHitKeyStateAll(keys);
-
-		///
 		/// ↓更新処理ここから
-		///
-
-		///
+	
 		/// ↑更新処理ここまで
-		///
-
-		///
+	
 		/// ↓描画処理ここから
-		///
 
-		///
 		/// ↑描画処理ここまで
 		///
 
@@ -45,7 +37,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			break;
 		}
 	}
-
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
