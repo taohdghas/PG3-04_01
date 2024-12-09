@@ -12,3 +12,7 @@ public:
 	void Exec(Player& player)override;
 };
 
+class MoveLeftCommand :public Icommand {
+	void Exec(Player& player)override;
+};
+

@@ -13,11 +13,10 @@ public:
 	void Draw();
 
 public:
-	//メンバ関数
 	void MoveRight();
 	void MoveLeft();
 private:
-	Vector3 pos;
+	Vector3 pos = { 100,100 };
 	float speed = 5.0f;
 };
 
