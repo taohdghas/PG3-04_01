@@ -11,13 +11,15 @@ private:
 
 	std::unique_ptr<IScene>sceneArr_[3];
 
-	int currentSceneNo_;//Œ»İ‚ÌƒV[ƒ“
-	int preSceneNo_;//‘O‚ÌƒV[ƒ“
+	int currentSceneNo_;//ç¾åœ¨ã®ã‚·ãƒ¼ãƒ³
+	int preSceneNo_;//å‰ã®ã‚·ãƒ¼ãƒ³
+
+	IScene* iscene_;
 public:
 	GameManager();
 	~GameManager();
-	
-	//ƒQ[ƒ€ƒ‹[ƒvŒÄ‚Ño‚µ
+
+	//ã‚²ãƒ¼ãƒ ãƒ«ãƒ¼ãƒ—å‘¼ã³å‡ºã—
 	int Run();
 };
 

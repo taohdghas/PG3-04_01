@@ -4,4 +4,4 @@ int IScene::sceneNo = TITLE;
 
 IScene::~IScene(){}
 
-int IScene::GetSceneNo() { return sceneNo; };
+//int IScene::GetSceneNo() { return sceneNo; };

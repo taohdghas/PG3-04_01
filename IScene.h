@@ -1,6 +1,5 @@
 #pragma once
 
-//ƒV[ƒ“–¼‚ğ’è‹`
 enum SCENE{TITLE,STAGE,CLEAR};
 class IScene
 {
